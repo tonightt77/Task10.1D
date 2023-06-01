@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="PayView">
+        <!--圆环颜色-->
+        <attr name="ring_back_color" format="color"></attr>
+        <!--圆弧颜色-->
+        <attr name="arc_run_color" format="color"></attr>
+        <!--圆环的宽度-->
+        <attr name="ring_back_width" format="dimension"></attr>
+        <!--圆弧的宽度-->
+        <attr name="arc_run_width" format="dimension"></attr>
+    </declare-styleable>
+</resources>

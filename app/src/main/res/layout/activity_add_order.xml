@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_theme_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title_view" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Receiver name"
+                android:textColor="@color/color_333333"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/shape_bg_fff_4"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:paddingLeft="12dp"
+                android:textColor="#333333"
+                android:textColorHint="#bbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Pick up time"
+                android:textColor="@color/color_333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/shape_bg_fff_4"
+                android:gravity="start"
+                android:padding="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="#333333"
+                android:textColorHint="#bbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Pick up location:"
+                android:textColor="@color/color_333333"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edt_location"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/shape_bg_fff_4"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:paddingLeft="12dp"
+                android:textColor="#333333"
+                android:textColorHint="#bbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="image："
+                android:textColor="@color/color_333333" />
+
+
+            <ImageView
+                android:id="@+id/imgv"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/tianjiatupian" />
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/shape_bg_bt"
+                android:gravity="center"
+                android:text="Next"
+                android:textColor="@color/whilt"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

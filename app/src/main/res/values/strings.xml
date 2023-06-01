@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Truck Sharing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_key">AIzaSyB5wUyaAeOAmX54KacwLm7810UErPsp6lA</string>
+    <string name="error_missing_appid_rsa_private">Error: Missing \"APPID\" or \"RSA_PRIVATE\" in PayDemoActivity.</string>
+    <string name="error_auth_missing_partner_appid_rsa_private_target_id">Error: Missing \"PARTNER\", \"APP_ID\", \"RSA_PRIVATE\", or \"TARGET_ID\" in PayDemoActivity.</string>
+</resources>
